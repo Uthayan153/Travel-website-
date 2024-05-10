@@ -1,0 +1,61 @@
+/* Styles for the About Us section */
+body{
+    background-image: url('./about.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+#about {
+    padding: 20px;
+}
+
+#about h2 {
+    font-size: 24px;
+    color: #09adf4;
+    margin-bottom: 10px;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ddf4f9;
+    margin-bottom: 15px;
+}
+
+/* Styles for the header */
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #04ddfa;
+}
+
+/* Styles for the navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f3f1f1;
+    font-weight: bold;
+}
+
+/* Styles for the footer */
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

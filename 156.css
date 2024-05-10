@@ -1,0 +1,154 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('image');
+    background-size: cover; }
+header {
+    background-color: #080808;
+    color: #fff;
+    padding: 20px;
+    .hover-effect {
+        transition: all 0.3s ease;
+      }
+      
+      .hover-effect:hover {
+        transform: scale(1.1);
+        /* Add any other styles you want to apply on hover */
+      }
+}
+
+header h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: #fff;
+    color: #000;
+    padding: 5px;
+    border-radius: 10px;
+}
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.but{
+    padding: 5px;
+    background-color: #05d7fc;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0bf0be;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #2f2d2d;
+}
+
+.featured-destinations {
+    text-align: center;
+    padding: 50px;
+}
+
+.featured-destinations h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.destination {
+    margin-bottom: 30px;
+}
+
+.destination img {
+    background-color: #06d9f5;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.destination h3 {
+    margin-top: 30px;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.fbutton {
+    margin: 5px;
+    width: 20%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #2c9caf;
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #2c9caf;
+  }
+  
+  .fbutton:hover {
+    color: #ffffff;
+    transform: scale(1);
+    outline: 2px solid #70bdca;
+    box-shadow: 4px 5px 17px -4px #268391;
+  }
+  
+  .fbutton::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #2c9caf;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1500ms;
+  }
+  
+  .fbutton:hover::before {
+    width: 200%;
+  }
+  
